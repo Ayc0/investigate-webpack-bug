@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Common } from "./common";
+import { CommonRed } from "./common-red";
 
 import "./blue.css";
 
 export const Blue = () => {
-  return <Common className="blue">Blue</Common>;
+  return <CommonRed className="blue">Should be blue</CommonRed>;
 };
