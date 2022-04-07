@@ -5374,6 +5374,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"style-loader@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "style-loader@npm:3.3.1"
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: 470feef680f59e2fce4d6601b5c55b88c01ad8d1dd693c528ffd591ff5fd7c01a4eff3bdbe62f26f847d6bd2430c9ab594be23307cfe7a3446ab236683f0d066
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^5.3.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
@@ -5455,6 +5464,26 @@ __metadata:
   checksum: dd33af5d87a1159bcc38f354707505f1449a33d1491c512e9536f11fea7c3474cdc40e2e5fdf75f58658cfaab8ef47cb7454acd6406b2ce487675cb1978c6275
   languageName: node
   linkType: hard
+
+"test-style-loader@workspace:examples/style-loader":
+  version: 0.0.0-use.local
+  resolution: "test-style-loader@workspace:examples/style-loader"
+  dependencies:
+    "@babel/core": ^7.17.8
+    "@babel/preset-env": ^7.16.11
+    "@babel/preset-react": ^7.16.7
+    babel-loader: ^8.2.4
+    css-loader: ^6.7.1
+    html-webpack-plugin: 5.5.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    style-loader: ^3.3.1
+    typescript: 4.4.4
+    webpack: 5.71.0
+    webpack-cli: 4.9.2
+    webpack-dev-server: 4.7.4
+  languageName: unknown
+  linkType: soft
 
 "thunky@npm:^1.0.2":
   version: 1.1.0
