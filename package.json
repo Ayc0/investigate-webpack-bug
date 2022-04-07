@@ -3,5 +3,8 @@
   "workspaces": [
     "examples/*"
   ],
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "@emotion/css": "^11.9.0"
+  }
 }
