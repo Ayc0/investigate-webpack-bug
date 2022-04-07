@@ -1,7 +1,10 @@
 import React from "react";
 
+import "./mimic-external-dependency.css";
 import styles from "./common-red.css";
 
 export const CommonRed = ({ className, children }) => (
-  <div className={`${styles["common-red"]} ${className}`}>{children}</div>
+  <div className={`external ${styles["common-red"]} ${className}`}>
+    {children}
+  </div>
 );
